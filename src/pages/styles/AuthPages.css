@@ -1,0 +1,50 @@
+.auth-frame {
+  color: #f0f0fa;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+.auth-card {
+  position: relative;
+  z-index: 2;
+  max-width: 480px;
+  margin: 140px auto 40px auto;
+  padding: 32px 32px 24px 32px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 16px;
+  border: 1px solid #d8d8e0;
+}
+
+.auth-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.auth-footer {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #d8d8e0;
+}
+
+.auth-footer a {
+  color: #f0f0fa;
+}
+
+@media (max-width: 768px) {
+  .auth-card {
+    margin-top: 120px;
+    padding: 24px 20px 20px 20px;
+  }
+
+  .auth-title {
+    font-size: 26px;
+  }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,275 @@
+.request-frame {
+  color: #f0f0fa;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+}
+
+.request-header {
+  position: absolute;
+  top: 154px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1375px;
+  height: 95px;
+}
+
+.request-header .rectangle {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 100%;
+  height: 79px;
+  background-color: #000000;
+  border-bottom: 1px solid #d8d8e0;
+}
+
+.request-title {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #f0f0fa;
+}
+
+.request-cards {
+  position: relative;
+  margin: 0 auto 0 auto;
+  width: 90%;
+  max-width: 1375px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.asteroid-request-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  padding: 11px 31px;
+  background-color: #000000;
+  border-radius: 20px;
+  border: 1px solid #d8d8e0;
+}
+
+.asteroid-request-card .image {
+  width: 121px;
+  height: 121px;
+  min-width: 121px;
+  min-height: 121px;
+  object-fit: cover;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 180px;
+  font-size: 20px;
+  color: #d8d8e0;
+}
+
+.date-label {
+  font-weight: 600;
+}
+
+.RA-DEC {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1 1 0;
+  font-size: 20px;
+  color: #d8d8e0;
+}
+
+.asteroid-block {
+  position: relative;
+  width: 420px;
+  height: 80px;
+}
+
+.asteroid-labels-row {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.asteroid-label {
+  font-size: 20px;
+  color: #d8d8e0;
+  white-space: nowrap;
+}
+
+.asteroid-inputs-row {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.asteroid-input-group {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  margin-right: 20px;
+}
+
+.group-2 {
+  position: relative;
+  width: 180px;
+  height: 48px;
+}
+
+.rectangle-3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid #d8d8e0;
+  background-color: #000000;
+}
+
+.RA,
+.DEC {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  background: transparent;
+  border: none;
+  color: #d8d8e0;
+  font-size: 20px;
+}
+
+.RA:read-only,
+.DEC:read-only {
+  opacity: 0.8;
+}
+
+.delete-item-btn {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.request-actions {
+  position: relative;
+  margin: 24px auto 40px auto;
+  width: 90%;
+  max-width: 1375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.request-submit-btn {
+  min-width: 260px;
+}
+
+.request-submit-alert {
+  width: 100%;
+  max-width: 480px;
+  margin-bottom: 0;
+}
+
+.request-status-label {
+  color: #d8d8e0;
+  font-size: 16px;
+  text-align: center;
+}
+
+.request-comment-section {
+  position: relative;
+  margin: 210px auto 16px auto;
+  width: 90%;
+  max-width: 1375px;
+}
+
+.comment-rectangle {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #000000;
+  border-radius: 20px;
+  border: 1px solid #d8d8e0;
+}
+
+.request-comment-input {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 44px;
+  margin-top: 20px;
+  padding: 12px 16px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #f0f0fa;
+  font-family: "Montserrat-Medium", Helvetica;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.request-comment-input::placeholder {
+  color: #777799;
+}
+
+@media (max-width: 1200px) {
+  .request-row {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .request-header {
+    top: 130px;
+    height: 80px;
+  }
+
+  .request-title {
+    font-size: 22px;
+  }
+
+  .request-cards {
+    margin-top: 230px;
+    width: 96%;
+  }
+
+  .request-row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .request-title {
+    font-size: 18px;
+  }
+
+  .asteroid-request-card .image {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+
