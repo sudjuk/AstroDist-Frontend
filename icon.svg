@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <rect width="512" height="512" fill="#000000"/>
-  <circle cx="256" cy="256" r="180" fill="#1a1a2e" stroke="#d8d8e0" stroke-width="8"/>
-  <circle cx="256" cy="256" r="140" fill="#16213e" stroke="#d8d8e0" stroke-width="4"/>
-  <circle cx="256" cy="256" r="100" fill="#0f3460" stroke="#d8d8e0" stroke-width="3"/>
-  <circle cx="256" cy="256" r="60" fill="#1a5490" stroke="#d8d8e0" stroke-width="2"/>
-  <circle cx="256" cy="256" r="20" fill="#f0f0fa"/>
-  <text x="256" y="420" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#d8d8e0" text-anchor="middle">AD</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <circle cx="256" cy="256" r="200" fill="#4a90e2" stroke="#2c5aa0" stroke-width="20"/>
+  <circle cx="256" cy="256" r="150" fill="#6bb3ff" opacity="0.7"/>
+  <circle cx="200" cy="200" r="30" fill="#fff"/>
+  <circle cx="300" cy="180" r="20" fill="#fff"/>
+  <circle cx="320" cy="280" r="25" fill="#fff"/>
+  <circle cx="180" cy="300" r="15" fill="#fff"/>
 </svg>
 
