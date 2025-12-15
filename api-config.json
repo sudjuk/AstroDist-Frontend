@@ -1,5 +1,4 @@
 {
   "apiBaseUrl": "",
-  "tunnelUrl": "https://chem-gem-passing-wool.trycloudflare.com",
-  "useTunnel": true
+  "useTunnel": false
 }
