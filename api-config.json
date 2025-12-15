@@ -1,4 +1,4 @@
 {
-  "apiBaseUrl": "",
+  "apiBaseUrl": "https://localhost:8443",
   "useTunnel": false
 }
